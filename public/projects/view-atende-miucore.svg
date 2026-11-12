@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f2922" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="480" fill="url(#bg)" />
+
+  <!-- Sidebar UI Mock -->
+  <rect x="24" y="24" width="185" height="432" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+  <circle cx="52" cy="54" r="14" fill="url(#accent)" />
+  <text x="74" y="59" fill="#f8fafc" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="800" font-size="15">MiuCore Atende</text>
+
+  <!-- Sidebar Menu Items -->
+  <rect x="38" y="88" width="157" height="36" rx="10" fill="#10b981" fill-opacity="0.18" stroke="#10b981" stroke-width="1" />
+  <text x="54" y="111" fill="#34d399" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="700" font-size="12">💬 Inbox de Atendimentos</text>
+
+  <rect x="38" y="134" width="157" height="34" rx="10" fill="#0f172a" fill-opacity="0.5" />
+  <text x="54" y="156" fill="#cbd5e1" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="600" font-size="12">📊 KPIs &amp; ROI da IA</text>
+
+  <rect x="38" y="178" width="157" height="34" rx="10" fill="#0f172a" fill-opacity="0.5" />
+  <text x="54" y="200" fill="#cbd5e1" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="600" font-size="12">🧠 Base de Conhecimento</text>
+
+  <rect x="38" y="222" width="157" height="34" rx="10" fill="#0f172a" fill-opacity="0.5" />
+  <text x="54" y="244" fill="#cbd5e1" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="600" font-size="12">📱 Conexão WhatsApp QR</text>
+
+  <rect x="38" y="266" width="157" height="34" rx="10" fill="#0f172a" fill-opacity="0.5" />
+  <text x="54" y="288" fill="#cbd5e1" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="600" font-size="12">🏢 Empresas Multi-Tenant</text>
+
+  <rect x="38" y="396" width="157" height="44" rx="12" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+  <circle cx="56" cy="418" r="5" fill="#34d399" />
+  <text x="68" y="415" fill="#ecfdf5" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="700" font-size="11">Agente IA Online</text>
+  <text x="68" y="429" fill="#6ee7b7" font-family="monospace" font-size="10">atende.miucore.com.br</text>
+
+  <!-- Main Content Area: Top KPI Row -->
+  <rect x="228" y="24" width="174" height="86" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+  <text x="246" y="50" fill="#94a3b8" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="600" font-size="11">ATENDIMENTOS IA HOJE</text>
+  <text x="246" y="84" fill="#f8fafc" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="800" font-size="26">1.482</text>
+  <text x="330" y="82" fill="#34d399" font-family="monospace" font-weight="700" font-size="12">+94% Auto</text>
+
+  <rect x="415" y="24" width="174" height="86" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+  <text x="433" y="50" fill="#94a3b8" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="600" font-size="11">TEMPO DE RESPOSTA</text>
+  <text x="433" y="84" fill="#34d399" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="800" font-size="26">1.2s</text>
+  <text x="505" y="82" fill="#94a3b8" font-family="monospace" font-size="11">24/7 WhatsApp</text>
+
+  <rect x="602" y="24" width="174" height="86" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+  <text x="620" y="50" fill="#94a3b8" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="600" font-size="11">CONVERSÃO &amp; AGENDA</text>
+  <text x="620" y="84" fill="#38bdf8" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="800" font-size="26">38.4%</text>
+  <text x="708" y="82" fill="#34d399" font-family="monospace" font-weight="700" font-size="11">ROI +3.4x</text>
+
+  <!-- Live WhatsApp + AI Inbox Panel -->
+  <rect x="228" y="126" width="548" height="330" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
+  <rect x="228" y="126" width="548" height="48" rx="16" fill="#0f172a" />
+  <circle cx="256" cy="150" r="6" fill="#10b981" />
+  <text x="272" y="155" fill="#f8fafc" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="700" font-size="14">Inbox WhatsApp • Inteligência MiuCore Ativa</text>
+  <rect x="626" y="137" width="132" height="26" rx="8" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
+  <text x="640" y="154" fill="#34d399" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="700" font-size="11">⚡ IA Respondendo</text>
+
+  <!-- Chat Messages -->
+  <rect x="252" y="194" width="320" height="54" rx="12" fill="#334155" />
+  <text x="268" y="216" fill="#94a3b8" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="700" font-size="10">Cliente via WhatsApp • 14:32</text>
+  <text x="268" y="235" fill="#f8fafc" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="12">Olá! Gostaria de saber os horários disponíveis para hoje.</text>
+
+  <rect x="336" y="264" width="414" height="74" rx="12" fill="#065f46" stroke="#10b981" stroke-width="1" />
+  <text x="354" y="286" fill="#6ee7b7" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="700" font-size="10">🤖 Agente MiuCore IA • Base de Conhecimento &amp; Agenda • 14:32</text>
+  <text x="354" y="306" fill="#ecfdf5" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="12">Olá! Consultei a agenda em tempo real e temos vagas às 15h30 e 17h00.</text>
+  <text x="354" y="324" fill="#a7f3d0" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="600" font-size="12">Deseja confirmar o agendamento automático para qual horário?</text>
+
+  <rect x="252" y="354" width="265" height="48" rx="12" fill="#334155" />
+  <text x="268" y="374" fill="#94a3b8" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-weight="700" font-size="10">Cliente via WhatsApp • 14:33</text>
+  <text x="268" y="391" fill="#f8fafc" font-family="Plus Jakarta Sans, system-ui, sans-serif" font-size="12">Pode confirmar para as 15h30, por favor!</text>
+
+  <rect x="252" y="414" width="498" height="28" rx="8" fill="#0f172a" />
+  <text x="268" y="432" fill="#38bdf8" font-family="monospace" font-weight="700" font-size="11">✓ Agendamento registrado automaticamente • Funil CRM atualizado • Transbordo humano disponível</text>
+</svg>
