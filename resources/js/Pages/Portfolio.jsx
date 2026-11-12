@@ -249,6 +249,12 @@ function ProjectVisualPreview({ project }) {
 
 const CONTENT = {
     pt: {
+        seo: {
+            title: 'Rafael Guimarães — Desenvolvedor Full Stack Sênior & Especialista em IA | rafaelgcs',
+            description:
+                'Portfólio oficial de Rafael Guimarães (rafaelgcs) — Desenvolvedor Full Stack Sênior & Especialista em Soluções de Inteligência Artificial (+6 anos com React, PHP/Laravel, Python/Django, .NET Core, Node.js, Flutter e IA).',
+            locale: 'pt_BR',
+        },
         slides: [
             { id: 'slide-intro', label: 'Início' },
             { id: 'slide-projects', label: 'Projetos' },
@@ -650,6 +656,12 @@ const CONTENT = {
         },
     },
     en: {
+        seo: {
+            title: 'Rafael Guimarães — Senior Full Stack Developer & AI Solutions Engineer | rafaelgcs',
+            description:
+                'Official portfolio of Rafael Guimarães (rafaelgcs) — Senior Full Stack Software Engineer & AI Solutions Specialist (6+ years building SaaS platforms, Web/Mobile apps with React, Laravel, Python/Django, .NET Core, Node.js, Flutter, and AI Agents).',
+            locale: 'en_US',
+        },
         slides: [
             { id: 'slide-intro', label: 'Home' },
             { id: 'slide-projects', label: 'Projects' },
@@ -1227,9 +1239,37 @@ export default function Portfolio({ profile }) {
         });
     };
 
+    useEffect(() => {
+        if (typeof document !== 'undefined') {
+            document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
+        }
+    }, [lang]);
+
     return (
         <>
-            <Head title="Rafael Guimarães — Portfólio & Engenharia de Software" />
+            <Head title={t.seo.title}>
+                <meta head-key="description" name="description" content={t.seo.description} />
+                <meta head-key="og:title" property="og:title" content={t.seo.title} />
+                <meta head-key="og:description" property="og:description" content={t.seo.description} />
+                <meta head-key="og:locale" property="og:locale" content={t.seo.locale} />
+                <meta
+                    head-key="og:site_name"
+                    property="og:site_name"
+                    content="Rafael Guimarães • rafaelgcs.com.br"
+                />
+                <meta
+                    head-key="og:image"
+                    property="og:image"
+                    content={profile.ogImageUrl || 'https://rafaelgcs.com.br/brand/og-cover.png'}
+                />
+                <meta head-key="twitter:title" name="twitter:title" content={t.seo.title} />
+                <meta head-key="twitter:description" name="twitter:description" content={t.seo.description} />
+                <meta
+                    head-key="twitter:image"
+                    name="twitter:image"
+                    content={profile.ogImageUrl || 'https://rafaelgcs.com.br/brand/og-cover.png'}
+                />
+            </Head>
 
             {/* Top Scroll-Driven Progress Bar */}
             <div id="scroll-progress-bar" ref={progressBarRef} aria-hidden="true" />
@@ -1584,9 +1624,8 @@ export default function Portfolio({ profile }) {
                                     <p className="text-[#455055] text-xs sm:text-sm">{t.projects.subtitle}</p>
                                 </div>
 
-                                <div
+                                <search
                                     className="flex flex-wrap gap-1.5"
-                                    role="group"
                                     aria-label="Filtrar projetos por categoria"
                                 >
                                     {t.projects.filters.map((f) => (
@@ -1603,7 +1642,7 @@ export default function Portfolio({ profile }) {
                                             {f.label}
                                         </button>
                                     ))}
-                                </div>
+                                </search>
                             </div>
 
                             {/* Split Interactive Stage */}

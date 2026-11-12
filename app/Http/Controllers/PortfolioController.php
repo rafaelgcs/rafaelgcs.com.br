@@ -15,6 +15,8 @@ class PortfolioController extends Controller
             'profile' => [
                 'name' => 'Rafael Guimarães',
                 'domain' => 'rafaelgcs.com.br',
+                'siteUrl' => url('/'),
+                'ogImageUrl' => asset('brand/og-cover.png'),
                 'email' => 'contato@rafaelgcs.com.br',
                 'phone' => '+55 (71) 99706-5007',
                 'whatsappUrl' => 'https://wa.me/5571997065007?text=Ol%C3%A1%20Rafael!%20Vi%20seu%20portf%C3%B3lio%20em%20rafaelgcs.com.br%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade.',

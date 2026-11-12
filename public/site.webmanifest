@@ -1,0 +1,22 @@
+{
+    "name": "Rafael Guimarães — Portfólio & Engenharia de Software",
+    "short_name": "rafaelgcs",
+    "description": "Portfólio oficial de Rafael Guimarães (rafaelgcs) — Desenvolvedor Full Stack Sênior & Especialista em Soluções de Inteligência Artificial.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f5f7f8",
+    "theme_color": "#253238",
+    "lang": "pt-BR",
+    "icons": [
+        {
+            "src": "/favicon.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "/brand/icon-rg.png",
+            "sizes": "417x643",
+            "type": "image/png"
+        }
+    ]
+}
