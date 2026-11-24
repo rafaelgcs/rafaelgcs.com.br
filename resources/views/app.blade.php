@@ -2,8 +2,8 @@
     $rawAppName = config('app.name');
     $defaultTitle = ($rawAppName && $rawAppName !== 'Laravel')
         ? $rawAppName
-        : 'Rafael Guimarães — Desenvolvedor Full Stack Sênior & Especialista em IA | rafaelgcs';
-    $defaultDescription = 'Portfólio oficial de Rafael Guimarães (rafaelgcs) — Desenvolvedor Full Stack Sênior & Especialista em Soluções de Inteligência Artificial (+6 anos com React, Next.js, PHP/Laravel, Python/Django, .NET Core, Node.js, Flutter e Agentes de IA).';
+        : 'Rafael Guimarães — Engenheiro de Software Full Stack Sênior & Especialista em IA | rafaelgcs';
+    $defaultDescription = 'Portfólio oficial de Rafael Guimarães (rafaelgcs) — Engenheiro de Software Full Stack Sênior (Senior Software Engineer) & Especialista em Soluções de Inteligência Artificial (+6 anos com React, Next.js, PHP/Laravel, Python/Django, .NET Core, Node.js, Flutter e Agentes de IA).';
     $canonicalUrl = url()->current() ?: 'https://rafaelgcs.com.br';
     $ogImageUrl = asset('brand/og-cover.png');
 @endphp
@@ -16,7 +16,7 @@
     <!-- Primary SEO Meta Tags -->
     <title inertia>{{ $defaultTitle }}</title>
     <meta name="description" content="{{ $defaultDescription }}" inertia>
-    <meta name="keywords" content="Rafael Guimarães, rafaelgcs, Desenvolvedor Full Stack Sênior, Senior Full Stack Developer, Engenheiro de Software, Especialista em IA, React, React Native, Flutter, Angular, TypeScript, PHP, Laravel, Inertia, Python, Django, .NET Core, C#, Node.js, MiuCore Atende, PsiEasy, Salvador Bahia" inertia>
+    <meta name="keywords" content="Rafael Guimarães, rafaelgcs, Engenheiro de Software Full Stack Sênior, Senior Software Engineer, Senior Full Stack Software Engineer, Especialista em IA, React, React Native, Flutter, Angular, TypeScript, PHP, Laravel, Inertia, Python, Django, .NET Core, C#, Node.js, MiuCore Atende, PsiEasy, Salvador Bahia" inertia>
     <meta name="author" content="Rafael Guimarães (rafaelgcs)">
     <meta name="creator" content="Rafael Guimarães">
     <meta name="publisher" content="Rafael Guimarães">
@@ -37,22 +37,22 @@
     <meta property="og:locale" content="pt_BR" inertia>
     <meta property="og:locale:alternate" content="en_US">
     <meta property="og:url" content="{{ $canonicalUrl }}" inertia>
-    <meta property="og:title" content="Rafael Guimarães — Desenvolvedor Full Stack Sênior & Especialista em IA" inertia>
+    <meta property="og:title" content="Rafael Guimarães — Engenheiro de Software Full Stack Sênior & Especialista em IA" inertia>
     <meta property="og:description" content="{{ $defaultDescription }}" inertia>
     <meta property="og:image" content="{{ $ogImageUrl }}" inertia>
     <meta property="og:image:secure_url" content="{{ $ogImageUrl }}">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Rafael Guimarães — Senior Full Stack Developer & AI Solutions Engineer (rafaelgcs.com.br)" inertia>
+    <meta property="og:image:alt" content="Rafael Guimarães — Senior Full Stack Software Engineer & AI Specialist (rafaelgcs.com.br)" inertia>
 
     <!-- Twitter / X Large Summary Card -->
     <meta name="twitter:card" content="summary_large_image" inertia>
     <meta name="twitter:url" content="{{ $canonicalUrl }}" inertia>
-    <meta name="twitter:title" content="Rafael Guimarães — Desenvolvedor Full Stack Sênior & Especialista em IA" inertia>
+    <meta name="twitter:title" content="Rafael Guimarães — Engenheiro de Software Full Stack Sênior & Especialista em IA" inertia>
     <meta name="twitter:description" content="{{ $defaultDescription }}" inertia>
     <meta name="twitter:image" content="{{ $ogImageUrl }}" inertia>
-    <meta name="twitter:image:alt" content="Rafael Guimarães — Senior Full Stack Developer & AI Solutions Engineer (rafaelgcs.com.br)">
+    <meta name="twitter:image:alt" content="Rafael Guimarães — Senior Full Stack Software Engineer & AI Specialist (rafaelgcs.com.br)">
 
     <!-- Favicons & Web App Manifest -->
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
@@ -82,7 +82,7 @@
                 '@type' => 'ProfilePage',
                 '@id' => 'https://rafaelgcs.com.br/#profilepage',
                 'url' => 'https://rafaelgcs.com.br/',
-                'name' => 'Rafael Guimarães — Desenvolvedor Full Stack Sênior & Especialista em IA',
+                'name' => 'Rafael Guimarães — Engenheiro de Software Full Stack Sênior & Especialista em IA',
                 'isPartOf' => ['@id' => 'https://rafaelgcs.com.br/#website'],
                 'mainEntity' => ['@id' => 'https://rafaelgcs.com.br/#person'],
             ],
@@ -91,7 +91,7 @@
                 '@id' => 'https://rafaelgcs.com.br/#person',
                 'name' => 'Rafael Guimarães',
                 'alternateName' => 'rafaelgcs',
-                'jobTitle' => 'Desenvolvedor Full Stack Sênior & Especialista em Soluções de IA',
+                'jobTitle' => 'Engenheiro de Software Full Stack Sênior & Especialista em Soluções de IA (Senior Software Engineer)',
                 'description' => $defaultDescription,
                 'url' => 'https://rafaelgcs.com.br/',
                 'image' => $ogImageUrl,

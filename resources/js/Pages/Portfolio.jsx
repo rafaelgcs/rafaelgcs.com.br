@@ -250,9 +250,9 @@ function ProjectVisualPreview({ project }) {
 const CONTENT = {
     pt: {
         seo: {
-            title: 'Rafael Guimarães — Desenvolvedor Full Stack Sênior & Especialista em IA | rafaelgcs',
+            title: 'Rafael Guimarães — Engenheiro de Software Full Stack Sênior & Especialista em IA | rafaelgcs',
             description:
-                'Portfólio oficial de Rafael Guimarães (rafaelgcs) — Desenvolvedor Full Stack Sênior & Especialista em Soluções de Inteligência Artificial (+6 anos com React, PHP/Laravel, Python/Django, .NET Core, Node.js, Flutter e IA).',
+                'Portfólio oficial de Rafael Guimarães (rafaelgcs) — Engenheiro de Software Full Stack Sênior (Senior Software Engineer) & Especialista em Soluções de Inteligência Artificial (+6 anos com React, PHP/Laravel, Python/Django, .NET Core, Node.js, Flutter e IA).',
             locale: 'pt_BR',
         },
         slides: [
@@ -268,12 +268,11 @@ const CONTENT = {
         },
         hero: {
             greeting: 'Olá! Eu sou o Rafael Guimarães 👋',
-            badge: 'Disponível para novos projetos & vagas Sênior (Remoto / Híbrido)',
             headlinePart1: 'Transformo ideias e desafios em ',
             headlineHighlight: 'sistemas web, apps & agentes de IA',
             headlinePart2: ' com foco total na experiência do usuário.',
             description:
-                'Graduando em Análise e Desenvolvimento de Sistemas (Estácio) e em Ciência e Tecnologia (UFBA), Técnico em Desenvolvimento de Software pelo SENAI CIMATEC e Design na SAGA. Somo +6 anos construindo aplicações Full Stack (React, React Native, Flutter, Angular, PHP/Laravel, .NET Core, Node.js e Python/Django) e soluções de IA.',
+                'Graduando em Análise e Desenvolvimento de Sistemas (Estácio — previsão Jun/2027) e em Ciência e Tecnologia (UFBA — previsão Jun/2028), Técnico em Desenvolvimento de Software pelo SENAI CIMATEC e Design na SAGA. Somo +6 anos construindo aplicações Full Stack (React, React Native, Flutter, Angular, PHP/Laravel, .NET Core, Node.js e Python/Django) e soluções de IA.',
             primaryCta: 'Ver Projetos Realizados',
             cvPtBtn: 'Currículo (PT-BR)',
             cvEnBtn: 'Resume (EN)',
@@ -518,18 +517,18 @@ const CONTENT = {
                     id: 'almaviva-ai-maximo',
                     category: 'systems',
                     visualType: 'whatsapp-ai',
-                    badge: 'IA & Sistemas Críticos',
+                    badge: 'IA, Áudio, Big Data & Multi-Stack',
                     client: 'AlmaViva Solutions',
                     year: '2022 – 2026',
-                    title: 'Agentes de IA (Gemini/Vertex/Watson) & IBM Maximo',
+                    title: 'Chatbots (Watson/Gemini), Áudio IA, Python & .NET/Node',
                     shortDesc:
-                        'Desenvolvimento Full Stack em Python (Django), React e Angular integrado ao IBM Maximo e assistentes inteligentes no WhatsApp.',
+                        'Arquitetura em Python (Django, Flask, FastAPI), React/Angular e .NET Core/ASP.NET/Node.js, treinamento de IA, tratamento de áudio e chats embedded (iframe/WhatsApp).',
                     challenge:
-                        'Integrar atendimento automatizado de alta escala no WhatsApp e gestão de ativos corporativos (IBM Maximo) com baixa latência.',
+                        'Escalar canais de atendimento inteligente (WhatsApp e widgets embedded via iframe), processar áudio para treinamento de IA e sustentar múltiplos sistemas críticos e Big Data.',
                     solution:
-                        'Construção de microsserviços e APIs REST em Python/Django, dashboards em React/Angular e fluxos conversacionais com Google Vertex AI, Gemini e Watson.',
-                    impact: 'Promoção para Analista Nível IV e automação de operações críticas.',
-                    stack: ['Python', 'Django', 'React.js', 'Angular', 'Docker'],
+                        'Arquitetura com Python (Django, Flask, FastAPI), interfaces React.js/Angular, evolução para .NET Core, ASP.NET legado e Node.js no último ano, além de chatbots IBM Watson e Google Gemini.',
+                    impact: 'Promoção de Pleno III para Pleno IV atuando também como Analista de Dados/Big Data e suporte transversal a múltiplos projetos.',
+                    stack: ['Python', 'Django', '.NET Core', 'Node.js', 'React.js', 'Angular'],
                     liveUrl: null,
                     repoUrl: null,
                 },
@@ -537,18 +536,18 @@ const CONTENT = {
                     id: 'capgemini-cimatec',
                     category: 'systems',
                     visualType: 'capgemini-banking',
-                    badge: 'Enterprise & Mobile',
+                    badge: 'Enterprise, Salesforce & Mobile',
                     client: 'Capgemini & SENAI CIMATEC',
                     year: '2019 – 2022',
-                    title: 'Sistemas Corporativos (.NET/React) & Apps Flutter',
+                    title: 'Sistemas Corporativos (Node/Salesforce/.NET/React) & Flutter',
                     shortDesc:
-                        'Modernização de sistemas corporativos com C# (.NET Core / ASP.NET), React.js, Angular e aplicativos móveis em Flutter e React Native.',
+                        'Ingresso na Capgemini como Jr com Node.js e Salesforce, evoluindo com 2 promoções em projetos C# (.NET Core / ASP.NET), React.js, Angular e apps Flutter/React Native.',
                     challenge:
-                        'Entregar aplicações web e mobile escaláveis para grandes clientes corporativos e projetos de P&D cumprindo rigorosos padrões de qualidade.',
+                        'Entregar integrações Salesforce/Node.js e aplicações web e mobile escaláveis para grandes clientes corporativos e projetos de P&D.',
                     solution:
-                        'Desenvolvimento de APIs em .NET Core e Node.js, interfaces em React e Angular, e aplicativos multiplataforma em Flutter (como DevQuiz e conversores no GitHub).',
-                    impact: 'Duas promoções consecutivas na Capgemini em menos de 2 anos.',
-                    stack: ['.NET Core', 'C#', 'React.js', 'Flutter', 'Node.js'],
+                        'Desenvolvimento com Node.js, Salesforce, APIs em .NET Core e ASP.NET, interfaces em React e Angular e aplicativos multiplataforma em Flutter.',
+                    impact: 'Duas promoções consecutivas na Capgemini (Jr → Analista I → Consultor III) em menos de 2 anos.',
+                    stack: ['Node.js', '.NET Core', 'C#', 'React.js', 'Flutter'],
                     liveUrl: null,
                     repoUrl: 'https://github.com/rafaelgcs?tab=repositories',
                 },
@@ -606,23 +605,23 @@ const CONTENT = {
             jobs: [
                 {
                     company: 'AlmaViva Solutions',
-                    role: 'Senior Full Stack & AI Developer (PL III → PL IV)',
+                    role: 'Software Engineer Full Stack, IA & Big Data (Pleno III → Pleno IV)',
                     period: 'Mai 2022 – Nov 2026 (4a 7m)',
-                    badge: 'Promovido ao Nível IV',
+                    badge: 'Pleno III → Pleno IV',
                     summary:
-                        'Liderança técnica em projetos Full Stack (Python/Django, React, Angular), IBM Maximo e IA Generativa (Vertex AI, Gemini, Watson e WhatsApp).',
+                        'Python (Django, Flask, FastAPI), React/Angular e no último ano .NET Core, ASP.NET legado e Node.js. Chatbots (Watson/Gemini), tratamento de áudio, treino de IA, chats embedded (iframe/WhatsApp) e Big Data.',
                 },
                 {
                     company: 'Capgemini',
-                    role: 'Consultor de Soluções Digitais III',
+                    role: 'Software Engineer (Jr → Analista I → Consultor III)',
                     period: 'Mar 2020 – Mai 2022 (2a 3m)',
                     badge: '2 Promoções em < 2 anos',
                     summary:
-                        'Modernização de sistemas corporativos com React.js, Angular, Node.js, C#, ASP.NET e .NET Core em squads ágeis globais.',
+                        'Ingresso como Jr atuando com Node.js e Salesforce, evoluindo na modernização de sistemas corporativos com React.js, Angular, JavaScript, C#, ASP.NET e .NET Core.',
                 },
                 {
                     company: 'SENAI CIMATEC',
-                    role: 'Desenvolvedor de Software (Estágio) & Técnico',
+                    role: 'Estagiário de Engenharia de Software & Técnico',
                     period: 'Abr 2019 – Mar 2020 (Técnico 2017–2019)',
                     badge: 'P&D & Engenharia',
                     summary:
@@ -630,7 +629,7 @@ const CONTENT = {
                 },
                 {
                     company: 'EJC&T (UFBA) & Projetos SaaS',
-                    role: 'Diretor Presidente (CEO), Co-Fundador & Tech Lead',
+                    role: 'Diretor Presidente (CEO), Co-Fundador & Lead Software Engineer',
                     period: 'Abr 2019 – Fev 2021 • SaaS Ativos',
                     badge: 'CEO & Produtos SaaS',
                     summary:
@@ -641,7 +640,7 @@ const CONTENT = {
         contact: {
             title: 'Vamos construir o próximo grande projeto juntos?',
             subtitle:
-                'Disponibilidade imediata para atuar como Senior Full Stack Developer, Python/PHP Engineer ou Front-End/Mobile Specialist.',
+                'Engenheiro de Software Full Stack Sênior com atuação em Python/Django, PHP/Laravel, React/Next.js, .NET Core, Node.js, Mobile e Inteligência Artificial.',
             openModalBtn: 'Mandar Mensagem pelo Site',
             whatsappBtn: 'Chamar no WhatsApp',
             dialogTitle: 'Falar com Rafael Guimarães',
@@ -657,7 +656,7 @@ const CONTENT = {
     },
     en: {
         seo: {
-            title: 'Rafael Guimarães — Senior Full Stack Developer & AI Solutions Engineer | rafaelgcs',
+            title: 'Rafael Guimarães — Senior Full Stack Software Engineer & AI Specialist | rafaelgcs',
             description:
                 'Official portfolio of Rafael Guimarães (rafaelgcs) — Senior Full Stack Software Engineer & AI Solutions Specialist (6+ years building SaaS platforms, Web/Mobile apps with React, Laravel, Python/Django, .NET Core, Node.js, Flutter, and AI Agents).',
             locale: 'en_US',
@@ -675,12 +674,11 @@ const CONTENT = {
         },
         hero: {
             greeting: 'Hi there! I’m Rafael Guimarães 👋',
-            badge: 'Immediate Availability for Senior Roles & Projects (Remote / Hybrid)',
             headlinePart1: 'Turning complex ideas into ',
             headlineHighlight: 'web platforms, mobile apps & AI agents',
             headlinePart2: ' with a strong UI/UX foundation.',
             description:
-                'Systems Analysis & Development (ADS — Estácio) and Science & Technology (UFBA) student, Software Development Technician at SENAI CIMATEC, and Designer trained at SAGA. 6+ years building Full Stack applications (React, React Native, Flutter, Angular, PHP/Laravel, .NET Core, Node.js, Python/Django) and AI solutions.',
+                'Systems Analysis & Development (ADS — Estácio, expected Jun 2027) and Science & Technology (UFBA, expected Jun 2028) student, Software Development Technician at SENAI CIMATEC, and Designer trained at SAGA. 6+ years building Full Stack applications (React, React Native, Flutter, Angular, PHP/Laravel, .NET Core, Node.js, Python/Django) and AI solutions.',
             primaryCta: 'Explore Delivered Projects',
             cvPtBtn: 'Baixar CV (PT-BR)',
             cvEnBtn: 'Download CV (EN)',
@@ -925,18 +923,18 @@ const CONTENT = {
                     id: 'almaviva-ai-maximo',
                     category: 'systems',
                     visualType: 'whatsapp-ai',
-                    badge: 'AI & Enterprise EAM',
+                    badge: 'AI, Audio, Big Data & Multi-Stack',
                     client: 'AlmaViva Solutions',
                     year: '2022 – 2026',
-                    title: 'AI Agents (Gemini/Vertex/Watson) & IBM Maximo',
+                    title: 'Chatbots (Watson/Gemini), Audio AI, Python & .NET/Node',
                     shortDesc:
-                        'Full Stack engineering in Python (Django), React, and Angular integrated with IBM Maximo and WhatsApp AI assistants.',
+                        'Architected systems in Python (Django, Flask, FastAPI), React/Angular, and .NET Core/ASP.NET/Node.js, plus AI training, audio processing, and embedded chats (iframe/WhatsApp).',
                     challenge:
-                        'Connect high-volume WhatsApp customer operations and IBM Maximo asset management with low-latency APIs.',
+                        'Scale automated chat channels (WhatsApp and embedded iframe widgets), build audio processing & AI training pipelines, and support multi-stack enterprise & Big Data systems.',
                     solution:
-                        'Engineered Python/Django REST services, React/Angular portals, and conversational agents powered by Google Vertex AI, Gemini, and Watson.',
-                    impact: 'Promoted to Level IV Analyst while automating mission-critical workflows.',
-                    stack: ['Python', 'Django', 'React.js', 'Angular', 'Docker'],
+                        'Built services with Python (Django, Flask, FastAPI), React/Angular UIs, expanded into .NET Core, legacy ASP.NET, and Node.js in the final year, and orchestrated IBM Watson & Google Gemini chatbots.',
+                    impact: 'Promoted from Pleno III to Pleno IV while also acting as a Data/Big Data Analyst and supporting multiple projects.',
+                    stack: ['Python', 'Django', '.NET Core', 'Node.js', 'React.js', 'Angular'],
                     liveUrl: null,
                     repoUrl: null,
                 },
@@ -944,18 +942,18 @@ const CONTENT = {
                     id: 'capgemini-cimatec',
                     category: 'systems',
                     visualType: 'capgemini-banking',
-                    badge: 'Enterprise & Mobile',
+                    badge: 'Enterprise, Salesforce & Mobile',
                     client: 'Capgemini & SENAI CIMATEC',
                     year: '2019 – 2022',
-                    title: 'Enterprise Systems (.NET/React) & Flutter Apps',
+                    title: 'Enterprise Systems (Node/Salesforce/.NET/React) & Flutter',
                     shortDesc:
-                        'Modernized enterprise platforms with C# (.NET Core / ASP.NET), React.js, Angular, and cross-platform Flutter / React Native apps.',
+                        'Joined Capgemini as a Junior Engineer with Node.js and Salesforce, earning 2 promotions across C# (.NET Core / ASP.NET), React.js, Angular, and Flutter/React Native projects.',
                     challenge:
-                        'Deliver scalable web and mobile solutions for global enterprise clients and R&D initiatives.',
+                        'Deliver Salesforce/Node.js integrations and scalable web/mobile solutions for global enterprise clients and R&D initiatives.',
                     solution:
-                        'Developed .NET Core and Node.js APIs, reusable React/Angular components, and Flutter mobile apps.',
-                    impact: 'Earned two consecutive promotions at Capgemini in under 2 years.',
-                    stack: ['.NET Core', 'C#', 'React.js', 'Flutter', 'Node.js'],
+                        'Developed with Node.js, Salesforce, .NET Core/ASP.NET APIs, reusable React/Angular components, and Flutter mobile apps.',
+                    impact: 'Earned two consecutive promotions at Capgemini (Jr → Analyst I → Consultant III) in under 2 years.',
+                    stack: ['Node.js', '.NET Core', 'C#', 'React.js', 'Flutter'],
                     liveUrl: null,
                     repoUrl: 'https://github.com/rafaelgcs?tab=repositories',
                 },
@@ -1013,23 +1011,23 @@ const CONTENT = {
             jobs: [
                 {
                     company: 'AlmaViva Solutions',
-                    role: 'Senior Full Stack & AI Developer (PL III → IV)',
+                    role: 'Software Engineer Full Stack, AI & Big Data (Pleno III → IV)',
                     period: 'May 2022 – Nov 2026 (4y 7m)',
-                    badge: 'Promoted to Level IV',
+                    badge: 'Pleno III → Pleno IV',
                     summary:
-                        'Technical ownership across Full Stack platforms (Python/Django, React, Angular), IBM Maximo integrations, and Generative AI (Vertex AI, Gemini, Watson, WhatsApp).',
+                        'Python (Django, Flask, FastAPI), React/Angular, and in the final year .NET Core, legacy ASP.NET & Node.js. Chatbots (Watson/Gemini), audio processing, AI training, embedded iframe/WhatsApp chats & Big Data.',
                 },
                 {
                     company: 'Capgemini',
-                    role: 'Digital Solutions Consultant III',
+                    role: 'Software Engineer (Jr → Analyst I → Consultant III)',
                     period: 'Mar 2020 – May 2022 (2y 3m)',
                     badge: '2 Promotions in < 2 yrs',
                     summary:
-                        'Modernized enterprise applications using React.js, Angular, Node.js, C#, ASP.NET, and .NET Core in global Agile squads.',
+                        'Joined as Jr working with Node.js and Salesforce, advancing across enterprise modernizations with React.js, Angular, JavaScript, C#, ASP.NET, and .NET Core.',
                 },
                 {
                     company: 'SENAI CIMATEC',
-                    role: 'Software Development Intern & Technician',
+                    role: 'Software Engineering Intern & Technician',
                     period: 'Apr 2019 – Mar 2020 (Tech 2017–2019)',
                     badge: 'R&D & Engineering',
                     summary:
@@ -1037,7 +1035,7 @@ const CONTENT = {
                 },
                 {
                     company: 'EJC&T (UFBA) & SaaS Products',
-                    role: 'CEO, Co-Founder & SaaS Architect',
+                    role: 'CEO, Co-Founder & Lead Software Engineer',
                     period: 'Apr 2019 – Feb 2021 • Active SaaS',
                     badge: 'CEO & SaaS Products',
                     summary:
@@ -1048,7 +1046,7 @@ const CONTENT = {
         contact: {
             title: 'Let’s build something great together!',
             subtitle:
-                'Available immediately for Senior Full Stack Developer, Python/PHP Engineer, or Front-End/Mobile Specialist roles.',
+                'Senior Full Stack Software Engineer specializing in Python/Django, PHP/Laravel, React/Next.js, .NET Core, Node.js, Mobile, and AI Solutions.',
             openModalBtn: 'Send Message on Site',
             whatsappBtn: 'Chat on WhatsApp',
             dialogTitle: 'Message Rafael Guimarães',
@@ -1420,11 +1418,6 @@ export default function Portfolio({ profile }) {
                     >
                         <div className="slide-stage grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
                             <div className="lg:col-span-7 space-y-4">
-                                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-900 text-xs font-bold">
-                                    <span className="w-2 h-2 rounded-full bg-emerald-600 pulse-dot" aria-hidden="true" />
-                                    <span>{t.hero.badge}</span>
-                                </div>
-
                                 <p className="text-base sm:text-lg font-bold text-[#455055]">
                                     {t.hero.greeting}
                                 </p>

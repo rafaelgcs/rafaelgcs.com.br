@@ -1,7 +1,7 @@
 import { createInertiaApp } from '@inertiajs/react';
 import { createRoot } from 'react-dom/client';
 
-const DEFAULT_TITLE = 'Rafael Guimarães — Desenvolvedor Full Stack Sênior & Especialista em IA | rafaelgcs';
+const DEFAULT_TITLE = 'Rafael Guimarães — Engenheiro de Software Full Stack Sênior & Especialista em IA | rafaelgcs';
 
 createInertiaApp({
     title: (title) => {
